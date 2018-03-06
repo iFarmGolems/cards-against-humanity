@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
+import { CardModule } from './card/card.module';
 
 @Module({
-  imports: [],
+  imports: [CardModule],
   controllers: [AppController],
   components: [],
 })

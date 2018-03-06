@@ -1,9 +1,9 @@
 import { Get, Controller } from '@nestjs/common';
 
-@Controller()
+@Controller('cards')
 export class CardController {
 	@Get()
 	root(): string {
-    return 'Hello World!';
+    return 'Hello Cards!';
   }
 }
