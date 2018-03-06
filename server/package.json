@@ -18,6 +18,8 @@
     "redis": "^2.7.1",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^5.5.6",
+    "sqlite3": "^3.1.13",
+    "typeorm": "^0.1.14",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
