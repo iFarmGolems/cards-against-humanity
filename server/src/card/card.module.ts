@@ -5,4 +5,4 @@ import { Module } from "@nestjs/common";
   controllers: [],
   components: [],
 })
-export class CardsModule {}
+export class CardModule {}
